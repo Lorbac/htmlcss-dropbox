@@ -1,0 +1,32 @@
+*{
+margin: 0; 
+padding: 0; 
+box-sizing: border-box; 
+}
+
+
+/*common*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.w_100 {
+    width: 100%;
+}
+
+.w_80 {
+    width: 80%;
+}
+
+.w_60 {
+    width: 60%;
+}
+
+/*fine common*/
