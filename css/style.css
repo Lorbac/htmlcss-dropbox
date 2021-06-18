@@ -29,4 +29,53 @@ body {
     width: 60%;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    padding: 5px 20px;
+    color: white;
+}
+
 /*fine common*/
+
+.nav_bar {
+    height: 80px;
+    line-height: 80px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 1px solid gray;
+}
+
+.nav_bar a {
+    margin: 15px;
+}
+
+.nav_bar a:hover {
+    text-decoration: underline;
+}
+
+.nav_left {
+    float: left;
+}
+
+.nav_right {
+    float: right;
+}
+
+.nav_left, .nav_right {
+    padding: 0 20px;
+}
+
+#logo {
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+.blue_btn {
+    background-color: #0061FF ;
+}
+
+
