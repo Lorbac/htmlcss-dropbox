@@ -34,6 +34,10 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .btn {
     padding: 5px 20px;
     color: white;
@@ -41,20 +45,18 @@ a {
 
 /*fine common*/
 
+/* header */
+
 .nav_bar {
     height: 80px;
     line-height: 80px;
     font-size: 15px;
     font-weight: 600;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
 }
 
 .nav_bar a {
     margin: 15px;
-}
-
-.nav_bar a:hover {
-    text-decoration: underline;
 }
 
 .nav_left {
@@ -78,4 +80,47 @@ a {
     background-color: #0061FF ;
 }
 
+/* fine header */
 
+
+/* main */
+
+.jumbotrone {
+    background-color: #B4D0E7;
+    height: 700px;
+}
+
+.jumbotrone_content {
+    position: relative;
+    margin: 0 auto;
+}
+
+.jumbotrone h1 {
+    font-size: 70px;
+}
+
+.jumbotrone img {
+    width: 70%;
+    float: left;
+    padding: 40px 0 40px 40px;
+}
+
+
+.jumbo_text {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    padding: 40px 40px 40px 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.jumbo_text p {
+    margin: 40px 0 40px 0;
+}
+
+.down_arrow {
+    font-size: 50px;
+}
+
+/* fine main */
