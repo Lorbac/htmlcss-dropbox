@@ -276,6 +276,43 @@ input[type='radio']:nth-child(2) {
     font-weight: 600;
 }
 
+.description {
+    margin-top: 100px;
+}
+
+.description h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.description_boxes .box {
+    float: left;
+    width: calc((100% / 3) - 20px);
+}
+
+.description_boxes .box:nth-child(2),
+.description_boxes .box:nth-child(5) {
+    margin: 0 30px;
+}
+
+.description_boxes .box img {
+    max-width: 100%;
+}
+
+.box h3 {
+    line-height: normal;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.box p {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 60px 0;
+}
+
+
 /* fine main */
 
 
