@@ -482,6 +482,46 @@ input[type='radio']:nth-child(2) {
 hr {
     margin: 40px 0;
 }
+
+.help_section {
+    position: relative;
+    color: white;
+    background-color: black;
+    padding: 100px 200px;
+}
+
+.help_section ul {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 100px;
+}
+
+.help_section ul li a {
+    color: white;
+    font-size: 15px;
+}
+
+.list {
+    float: left;
+    width: calc(100% / 5);
+    line-height: 2;
+}
+
+.list li:first-child {
+    line-height: 5;
+    font-weight:900;
+}
+
+.language {
+    position: absolute;
+    bottom: 40px;
+    border-top: 1px solid white;
+    padding-top: 50px;
+}
+
+.language span {
+    font-size: 15px;
+}
 /* fine main */
 
 
