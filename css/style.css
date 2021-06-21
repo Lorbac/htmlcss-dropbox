@@ -418,7 +418,7 @@ input[type='radio']:nth-child(2) {
     width: 30%;
 }
 
-hr {
+.mid_customers hr {
     margin: 50px 0 50px 0;
     width: 70px ;
 }
@@ -454,6 +454,33 @@ hr {
     position: absolute;
     border: none;
     padding: 10px 100px;
+}
+
+.faq {
+    padding: 150px 0;
+}
+
+.questions {
+    position: relative;
+}
+
+.faq h3 {
+    font-size: 35px;
+} 
+
+.questions span {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.questions i {
+    position: absolute;
+    right: 50px;
+    font-size: 20px;
+}
+
+hr {
+    margin: 40px 0;
 }
 /* fine main */
 
