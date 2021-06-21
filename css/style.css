@@ -25,8 +25,8 @@ body {
     width: 80%;
 }
 
-.w_60 {
-    width: 60%;
+.w_70 {
+    width: 70%;
 }
 
 a {
@@ -34,9 +34,9 @@ a {
     color: black;
 }
 
-a:hover {
+/* a:hover {
     text-decoration: underline;
-}
+} */
 
 .btn {
     padding: 5px 20px;
@@ -107,7 +107,6 @@ a:hover {
 
 
 .jumbo_text {
-    display: inline-block;
     width: 30%;
     float: left;
     padding: 40px 40px 40px 0;
@@ -123,4 +122,135 @@ a:hover {
     font-size: 50px;
 }
 
+.column_banner {
+    margin: 0 auto;
+    padding-top: 200px ;
+}
+
+.column_banner h2 {
+    padding: 30px 0;
+    font-size: 40px;
+    font-weight:900;
+}
+
+.form_radio {
+    padding: 30px 0 ;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input[type='radio']:nth-child(2) {
+    margin: 0 0 0 25px;
+}
+
+.column {
+    float: left;
+    width: calc((100% / 3) - 20px);
+    height: 1100px;
+    border: 1px solid lightgray;
+}
+
+.mid {
+    margin: 0 30px;
+}
+
+.column_title {
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    font-weight: 700;
+}
+
+.plan_type, .features {
+    margin: 30px;
+}
+
+ h3, h4 {
+    line-height: 3;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.plan_type p:nth-child(2) {
+    font-weight: bold;
+}
+
+.plan_type p:nth-child(3) {
+    color: gray;
+}
+
+.plan_type ul, .features ul {
+    list-style: none;
+    margin-top: 25px;
+    text-indent: -10px;
+    margin: 20px;
+    font-weight: 600;
+}
+
+.plan_type ul li, .features ul li {
+    padding-top: 20px;
+}
+
+.try_free p {
+    line-height: 5;
+    text-align: center;
+}
+
+.try_free .btn {
+    padding: 15px 75px;
+}
+
+.or {
+    display: inline-block;
+    border-bottom: 1px solid lightgray;
+    margin: 30px 5px 30px 30px;
+    padding-bottom: 30px;
+}
+
+.try_free span a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.features ul li i{
+    color: blue;
+}
+
+.under_column {
+    position: relative;
+    margin: 50px auto;
+    height: 250px;
+    border: 1px solid lightgray;
+}
+
+.under_column_text {
+    line-height: 3;
+    margin: 30px;
+}
+
+.under_column_text p:nth-child(2) {
+    font-weight: bold;
+}
+
+.under_column_text p:nth-child(3) {
+    font-weight: 600;
+}
+
+.under_column_btn {
+    top: 70px;
+    right: 0;
+    position: absolute;
+    padding: 20px 30px;
+}
+
 /* fine main */
+
+
+/* debug*/
+
+.debug {
+    background-color: red;
+    height: 1000px;
+}
+
+/* fine debug */
