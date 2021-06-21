@@ -23,15 +23,23 @@ body {
 
 .w_80 {
     width: 80%;
+    margin: 0 auto;
 }
 
 .w_70 {
     width: 70%;
+    margin: 0 auto;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+h3, h4 {
+    line-height: 3;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 /* a:hover {
@@ -80,6 +88,11 @@ a {
     background-color: #0061FF ;
 }
 
+.white_btn {
+    color: black;
+    border: 1px solid black;
+}
+
 /* fine header */
 
 
@@ -92,7 +105,6 @@ a {
 
 .jumbotrone_content {
     position: relative;
-    margin: 0 auto;
 }
 
 .jumbotrone h1 {
@@ -123,7 +135,6 @@ a {
 }
 
 .column_banner {
-    margin: 0 auto;
     padding-top: 200px ;
 }
 
@@ -163,12 +174,6 @@ input[type='radio']:nth-child(2) {
 
 .plan_type, .features {
     margin: 30px;
-}
-
- h3, h4 {
-    line-height: 3;
-    font-size: 22px;
-    font-weight: bold;
 }
 
 .plan_type p:nth-child(2) {
@@ -241,6 +246,34 @@ input[type='radio']:nth-child(2) {
     right: 0;
     position: absolute;
     padding: 20px 30px;
+}
+
+.search_partner {
+    margin-top: 200px;
+}
+
+.search_partner .partner_img {
+    float: left;
+    width: 60%;
+}
+
+.partner_img img {
+    max-width: 100%;
+}
+
+.search_partner .partner_text {
+    float: left;
+    width: 40%;
+    padding: 70px;
+}
+
+.partner_text h3 {
+    line-height: normal;
+}
+
+.partner_text p {
+    margin-top: 30px;
+    font-weight: 600;
 }
 
 /* fine main */
