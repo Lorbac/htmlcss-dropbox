@@ -2,6 +2,7 @@
 margin: 0; 
 padding: 0; 
 box-sizing: border-box; 
+scroll-behavior: smooth;
 }
 
 
@@ -78,6 +79,37 @@ h3, h4 {
 
 .nav_right {
     float: right;
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    line-height: 15px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .nav_left, .nav_right {
@@ -457,7 +489,9 @@ input[type='radio']:nth-child(2) {
 }
 
 .faq {
+    position: relative;
     padding: 150px 0;
+    height: 900px;
 }
 
 .questions {
@@ -479,8 +513,29 @@ input[type='radio']:nth-child(2) {
     font-size: 20px;
 }
 
-hr {
+.questions hr {
     margin: 40px 0;
+}
+
+.answer, .up {
+    display: none;
+    max-width: 800px;
+}
+
+.questions:hover .answer {
+    display: inline-block;  
+}
+
+.questions:hover .question {
+    display: none;
+}
+
+.questions:hover .up {
+    display: inline;
+}
+
+.questions:hover .down {
+    display: none;
 }
 
 .help_section {
