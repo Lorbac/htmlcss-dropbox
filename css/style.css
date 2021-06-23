@@ -138,25 +138,31 @@ h3, h4 {
 
 .jumbotrone {
     background-color: #B4D0E7;
-    height: 700px;
+    width: 100%;
 }
 
 .jumbotrone_content {
-    position: relative;
+   
 }
 
 .jumbotrone h1 {
     font-size: 70px;
 }
 
-.jumbotrone img {
-    width: 70%;
+.jumbo_img {
     float: left;
-    padding: 40px 0 40px 40px;
+    margin-bottom: -100px;
+    width: 70%;
+}
+
+.jumbotrone img {
+    width: 100%;
 }
 
 
 .jumbo_text {
+    overflow-y: auto;
+    height: 450px;
     width: 30%;
     float: left;
     padding: 40px 40px 40px 0;
@@ -172,8 +178,10 @@ h3, h4 {
     font-size: 50px;
 }
 
-.column_banner {
-    padding-top: 200px ;
+#column_banner {
+    margin-top: 100px;
+    padding-top: 100px ;
+    
 }
 
 .column_banner h2 {
@@ -389,7 +397,7 @@ input[type='radio']:nth-child(2) {
     position: relative;
     float: left;
     width: 15vw;
-    height: 30vh;
+    height: 15vw;
     padding: 20px;
 }
 
@@ -442,8 +450,10 @@ input[type='radio']:nth-child(2) {
 
 .mid_customers {
     display:inline-block;
-    margin: 90px;
-    width: 30%;
+    padding: 90px;
+    width: 30vw;
+    height: 30vw;
+    overflow-y: auto;
 }
 
 .mid_customers img {
